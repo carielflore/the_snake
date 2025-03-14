@@ -46,7 +46,7 @@ class GameObject:
     position = (320, 240)
     body_color = None
 
-    def __init__(self, position, color):
+    def __init__(self, position=(320, 240), color=None):
         """Конструктор игрового объекта.
 
         Отвечает за инициализацию позиции и цвета объекта.
